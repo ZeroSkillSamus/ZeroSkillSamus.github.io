@@ -17,7 +17,7 @@
   	text-align: center;
   }
  	div.b{
- 		width: 800px;
+ 		width: auto;
  		margin: auto;
  	}
   img {
