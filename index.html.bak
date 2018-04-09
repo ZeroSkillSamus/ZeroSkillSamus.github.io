@@ -4,6 +4,8 @@
 <body background="background.jpg">
 	
 </body>
+	
+</body>
 	<head>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />	
 	<meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
@@ -22,15 +24,51 @@
   }
  	div.b{
  		margin: auto;
- 		width: 1200px;
+ 		width: auto;
  	}
   img {
     border-radius: 50%;
 }
 
+@media (min-width:320px)
+{
+	body{
+		width:auto;
+		margin:auto;
+	}
+}
 
-
-
+@media (min-width:481px)
+{
+	body{
+		width:auto;
+		margin:auto;
+	}
+}
+@media (min-width:641px)  { 
+	body{
+		width:auto;
+		margin:auto;
+	}
+	}
+@media (min-width:961px)  { 
+	body{
+		width:auto;
+		margin:auto;
+	}
+	}
+@media (min-width:1025px) { 
+	body{
+		width:auto;
+		margin:auto;
+	}
+	}
+@media (min-width:1281px) { 
+	body{
+		width:1200px;
+		margin:auto;
+	}
+	 }
 
  
  	
@@ -50,10 +88,10 @@
   </div>
   <section>
    </br>
-  <center><h1><font color="white"><b>About Me</b></font></h1></center>
+  <center><h1><font color="black"><b>About Me</b></font></h1></center>
 
   <div class="b">
-  <p style="font-family:Lato;" align="center"><font size="5" color="white"><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+  <p style="font-family:Lato;" align="center"><font size="5" color="black"><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
   	Sit totam, quisquam facere assumenda quibusdam tenetur qui quia iste aut eaque delectus dolor animi mollitia eligendi quam asperiores! 
   	Rerum debitis dolore nam unde! Doloribus culpa perspiciatis necessitatibus ex voluptatum laudantium, 
   	assumenda atque dolores incidunt excepturi et veritatis odit quaerat sed quam tempore quia iusto, reprehenderit. 
